@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <div class="search-box">
+      <input type="text" id="search" placeholder="Search for places..." />
+      <button id="searchBtn">🔍</button>
+      <button id="getLocationBtn">📍</button>
+    </div>
+ 
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+          <video id="weatherGif" autoplay loop muted playsinline>
+            <source src="images/default.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          
+          <div class="weather-main">
+            <h1 id="temp">--°C</h1>
+            <p id="condition">--</p>
+            <p id="location">--</p>
+            <p id="datetime">Monday, 16:00</p>
+          </div>
+        </div>
+       
+      
+        <!-- Main Content -->
+        <div class="content">
+            <div class="toggle">
+                <span id="todayBtn" class="active">Today</span>
+                <span id="weekBtn">Week</span>
+              </div>
+              
+              <!-- Forecast section -->
+              <div class="forecast" id="weeklyForecast">
+                <!-- forecast cards inserted here -->
+              </div>
+      
+      <h2>Today's Highlights</h2>
+    
+      <div class="highlights">
+        <div class="card">
+          <div class="icon">💨</div>
+          <h3>Wind Status</h3>
+          <p id="wind">--</p>
+        </div>
+        <div class="card">
+          <div class="icon">🌅</div>
+          <h3>Sunrise & Sunset</h3>
+          <p id="sunrise">Sunrise: --</p>
+          <p id="sunset">Sunset: --</p>
+        </div>
+        <div class="card">
+          <div class="icon">💧</div>
+          <h3>Humidity</h3>
+          <p id="humidity">--</p>
+        </div>
+        <div class="card">
+          <div class="icon">👁️</div>
+          <h3>Visibility</h3>
+          <p id="visibility">--</p>
+        </div>
+        <div class="card">
+          <div class="icon">🏭</div>
+          <h3>Air Quality</h3>
+          <p id="airQuality">--</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
