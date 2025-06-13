@@ -18,7 +18,7 @@ WeatherAPI for real-time weather data
 
 📸 Preview
 1.Current location Weather 
-
+![image alt](https://github.com/Akshata210204/PRODIGY_WD_05/blob/main/current%20location%20weather.png?raw=true)
 2.Searched location Weather
 ![image alt](https://github.com/Akshata210204/PRODIGY_WD_05/blob/main/Searched%20location%20Weather.png?raw=true)
 🔑 Note: Replace apiKey in the JS file with your WeatherAPI key.
